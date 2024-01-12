@@ -95,7 +95,7 @@ export function Sculpturecontainer() {
                       width="15.657"
                       height="14.357"
                       viewBox="0 0 15.657 14.357"
-                      fill="#fff"
+                      fill="#ffffff"
                     >
                       <g id="prefix__Group_14" data-name="Group 14">
                         <path

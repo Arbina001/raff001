@@ -70,7 +70,7 @@ export const SculptureList = styled.ul`
   flex-wrap: wrap;
 `;
 export const Sculpture = styled.li`
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   width: 20%;
   margin: 64px 65px 64px 0;
   min-width: 247px;
@@ -138,10 +138,10 @@ export const ViewButtonInnerCOntainer = styled.div`
   justify-content: center;
 `;
 export const LoadMoreButton = styled.div`
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 30px;
   padding: 15px 30px;
   width: 125px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 `;
