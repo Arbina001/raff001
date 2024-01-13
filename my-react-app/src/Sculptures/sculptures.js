@@ -1,37 +1,37 @@
 import {
-  HeadingSection,
-  LoadMoreButton,
-  LoadmoreCOntainer,
+  Headingwrapper,
+  Loadmorebutton,
+  Loadmorewrapper,
   ProductContainer,
   SculptureContainer,
   SculptureSection,
   SculpturesHomeBox,
-  SecondDiscription,
+  Content,
   SubTitle,
-  ViewButtonInnerCOntainer,
-} from "./sculptures.styled";
-import { Sculpturecontainer } from "./sculpturescontent"
+  Buttoninnerwrapper,
+} from './sculptures.styled';
+import { Sculpturecontainer } from './sculpturescontent';
 export function Sculpturesdata() {
   return (
     <>
       <SculptureSection>
         <SculptureContainer>
           <ProductContainer>
-            <HeadingSection>
-              <SecondDiscription>
+            <Headingwrapper>
+              <Content>
                 <p>ART BY RAFF</p>
-              </SecondDiscription>
+              </Content>
               <SubTitle>Sculptures & furniture</SubTitle>
-            </HeadingSection>
+            </Headingwrapper>
             <SculpturesHomeBox>
               <Sculpturecontainer />
             </SculpturesHomeBox>
           </ProductContainer>
-          <LoadmoreCOntainer>
-          <ViewButtonInnerCOntainer>
-            <LoadMoreButton>Load more</LoadMoreButton>
-          </ViewButtonInnerCOntainer>
-        </LoadmoreCOntainer>
+          <Loadmorewrapper>
+            <Buttoninnerwrapper>
+              <Loadmorebutton>Load more</Loadmorebutton>
+            </Buttoninnerwrapper>
+          </Loadmorewrapper>
         </SculptureContainer>
       </SculptureSection>
     </>

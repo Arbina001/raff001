@@ -4,9 +4,9 @@ export const Aboutsection = styled.section`
   background-color: #161515;
   display: flex;
   justify-content: left;
-      padding: 141px 0px 0px 0px;
+  padding: 141px 0px 0px 0px;
 
-  @media (max-width: 911px) {
+  @media (max-width: 991px) {
     flex-direction: column;
     align-items: center;
   }
@@ -29,11 +29,10 @@ export const Leftbox = styled.div`
   text-align: left;
   color: #d8d8d8;
   width: 100%;
-  /* max-width: 50%; */
   flex-direction: column;
   padding: 0 0 0 96px;
 
-  @media (max-width: 911px) {
+  @media (max-width: 991px) {
     margin: 34px 70px 0px 0px;
   }
 `;
@@ -41,20 +40,13 @@ export const Leftbox = styled.div`
 export const Discriptiondetails = styled.div``;
 
 export const Imagefuntion = styled.img`
-  @media (max-width: 911px) {
-    /* max-width: 161px; */
+  @media (max-width: 991px) {
     width: 273px;
-    margin: 120px 0px 0px 0px;
-   margin: 0px -45px 5px 0px;
+    margin: 0px -45px 5px 0px;
   }
 `;
 
-export const TxtsStyled = styled.div`
-  @media (max-width: 911px) {
-    /* font-size: 12px;
-    margin: 55px 7px 6px 17px; */
-  }
-`;
+export const TxtsStyled = styled.div``;
 
 export const Texttitle = styled.div`
   font-family: Graphik-Bold;
@@ -65,7 +57,7 @@ export const Texttitle = styled.div`
   text-transform: uppercase;
   color: #ffffff;
 
-  @media (max-width: 911px) {
+  @media (max-width: 991px) {
     margin: 0px 0px 0px 0px;
     font-size: 15px;
     padding: 0px 0px 0px 70px;
@@ -88,7 +80,7 @@ export const Signature = styled.img`
 export const SignatureBox = styled.div`
   display: flex;
 
-  @media (max-width: 911px) {
+  @media (max-width: 991px) {
     font-size: 12px;
     padding: 42px 11px 9px 44px;
   }

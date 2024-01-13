@@ -1,204 +1,195 @@
 import {
   Unorderlist,
   ListProduct,
-  Producimage,
+  Productimage,
   Product,
-  TextAlignProduct,
-  FullDiscription,
-  ProductInfo,
-  ProdNAmeTitle,
-  ProdPrice,
-  ProdPriceINfo,
-  ProdCatogeri,
-} from "./cardproduct.styled";
+  Productproperties,
+  Contentwrapper,
+  Productdescription,
+  Producttitle,
+  ProductPrice,
+  Pricewrapper,
+  Properties,
+} from './cardproduct.styled';
 
 export function Cardcontainer() {
   return (
     <>
       <Unorderlist>
         <ListProduct>
-          <Producimage>
+          <Productimage>
             <a>
               <Product src="https://artbyraff.com/wp-content/uploads/2023/06/image00008-768x764.jpeg"></Product>
             </a>
-          </Producimage>
+          </Productimage>
 
-          <TextAlignProduct>
-            <ProductInfo>
-              <ProdNAmeTitle>
+          <Productproperties>
+            <Productdescription>
+              <Producttitle>
                 <a> </a>
-              </ProdNAmeTitle>
-              <ProdPrice>
-                <ProdPriceINfo>UNTITLED 202III – SERIES</ProdPriceINfo>
-                <ProdCatogeri>SOLD</ProdCatogeri>
-                <FullDiscription>
+              </Producttitle>
+              <ProductPrice>
+                <Pricewrapper>UNTITLED 202III – SERIES</Pricewrapper>
+                <Properties>SOLD</Properties>
+                <Contentwrapper>
                   MATERIAL : MIXED MEDIA ON CANVAS 100 X 100 CM
-                </FullDiscription>
-              </ProdPrice>
-            </ProductInfo>
-          </TextAlignProduct>
+                </Contentwrapper>
+              </ProductPrice>
+            </Productdescription>
+          </Productproperties>
         </ListProduct>
-
-        {/* secondd */}
         <ListProduct>
-          <Producimage>
+          <Productimage>
             <a>
               <Product src="https://artbyraff.com/wp-content/uploads/2023/06/image00008-768x764.jpeg"></Product>
             </a>
-          </Producimage>
+          </Productimage>
 
-          <TextAlignProduct>
-            <ProductInfo>
-              <ProdNAmeTitle>
+          <Productproperties>
+            <Productdescription>
+              <Producttitle>
                 <a> </a>
-              </ProdNAmeTitle>
-              <ProdPrice>
-                <ProdPriceINfo>UNTITLED 202III – SERIES</ProdPriceINfo>
-                <ProdCatogeri>SOLD</ProdCatogeri>
-                <FullDiscription>
+              </Producttitle>
+              <ProductPrice>
+                <Pricewrapper>UNTITLED 202III – SERIES</Pricewrapper>
+                <Properties>SOLD</Properties>
+                <Contentwrapper>
                   MATERIAL : MIXED MEDIA ON CANVAS 100 X 100 CM
-                </FullDiscription>
-              </ProdPrice>
-            </ProductInfo>
-          </TextAlignProduct>
+                </Contentwrapper>
+              </ProductPrice>
+            </Productdescription>
+          </Productproperties>
         </ListProduct>
-        {/* third */}
         <ListProduct>
-          <Producimage>
+          <Productimage>
             <a>
               <Product src="https://artbyraff.com/wp-content/uploads/2023/06/image00008-768x764.jpeg"></Product>
             </a>
-          </Producimage>
-
-          <TextAlignProduct>
-            <ProductInfo>
-              <ProdNAmeTitle>
+          </Productimage>
+          <Productproperties>
+            <Productdescription>
+              <Producttitle>
                 <a> </a>
-              </ProdNAmeTitle>
-              <ProdPrice>
-                <ProdPriceINfo>UNTITLED 202III – SERIES</ProdPriceINfo>
-                <ProdCatogeri>SOLD</ProdCatogeri>
-                <FullDiscription>
+              </Producttitle>
+              <ProductPrice>
+                <Pricewrapper>UNTITLED 202III – SERIES</Pricewrapper>
+                <Properties>SOLD</Properties>
+                <Contentwrapper>
                   MATERIAL : MIXED MEDIA ON CANVAS 100 X 100 CM
-                </FullDiscription>
-              </ProdPrice>
-            </ProductInfo>
-          </TextAlignProduct>
+                </Contentwrapper>
+              </ProductPrice>
+            </Productdescription>
+          </Productproperties>
         </ListProduct>
-        {/* fourth */}
         <ListProduct>
-          <Producimage>
+          <Productimage>
             <a>
               <Product src="https://artbyraff.com/wp-content/uploads/2023/06/image00008-768x764.jpeg"></Product>
             </a>
-          </Producimage>
+          </Productimage>
 
-          <TextAlignProduct>
-            <ProductInfo>
-              <ProdNAmeTitle>
+          <Productproperties>
+            <Productdescription>
+              <Producttitle>
                 <a> </a>
-              </ProdNAmeTitle>
-              <ProdPrice>
-                <ProdPriceINfo>UNTITLED 202III – SERIES</ProdPriceINfo>
-                <ProdCatogeri>SOLD</ProdCatogeri>
-                <FullDiscription>
+              </Producttitle>
+              <ProductPrice>
+                <Pricewrapper>UNTITLED 202III – SERIES</Pricewrapper>
+                <Properties>SOLD</Properties>
+                <Contentwrapper>
                   MATERIAL : MIXED MEDIA ON CANVAS 100 X 100 CM
-                </FullDiscription>
-              </ProdPrice>
-            </ProductInfo>
-          </TextAlignProduct>
+                </Contentwrapper>
+              </ProductPrice>
+            </Productdescription>
+          </Productproperties>
         </ListProduct>
-        {/* fiveth */}
         <ListProduct>
-          <Producimage>
+          <Productimage>
             <a>
               <Product src="https://artbyraff.com/wp-content/uploads/2023/06/image00008-768x764.jpeg"></Product>
             </a>
-          </Producimage>
+          </Productimage>
 
-          <TextAlignProduct>
-            <ProductInfo>
-              <ProdNAmeTitle>
+          <Productproperties>
+            <Productdescription>
+              <Producttitle>
                 <a> </a>
-              </ProdNAmeTitle>
-              <ProdPrice>
-                <ProdPriceINfo>UNTITLED 202III – SERIES</ProdPriceINfo>
-                <ProdCatogeri>SOLD</ProdCatogeri>
-                <FullDiscription>
+              </Producttitle>
+              <ProductPrice>
+                <Pricewrapper>UNTITLED 202III – SERIES</Pricewrapper>
+                <Properties>SOLD</Properties>
+                <Contentwrapper>
                   MATERIAL : MIXED MEDIA ON CANVAS 100 X 100 CM
-                </FullDiscription>
-              </ProdPrice>
-            </ProductInfo>
-          </TextAlignProduct>
+                </Contentwrapper>
+              </ProductPrice>
+            </Productdescription>
+          </Productproperties>
         </ListProduct>
-        {/* sixth */}
         <ListProduct>
-          <Producimage>
+          <Productimage>
             <a>
               <Product src="https://artbyraff.com/wp-content/uploads/2023/06/image00008-768x764.jpeg"></Product>
             </a>
-          </Producimage>
+          </Productimage>
 
-          <TextAlignProduct>
-            <ProductInfo>
-              <ProdNAmeTitle>
+          <Productproperties>
+            <Productdescription>
+              <Producttitle>
                 <a> </a>
-              </ProdNAmeTitle>
-              <ProdPrice>
-                <ProdPriceINfo>UNTITLED 202III – SERIES</ProdPriceINfo>
-                <ProdCatogeri>SOLD</ProdCatogeri>
-                <FullDiscription>
+              </Producttitle>
+              <ProductPrice>
+                <Pricewrapper>UNTITLED 202III – SERIES</Pricewrapper>
+                <Properties>SOLD</Properties>
+                <Contentwrapper>
                   MATERIAL : MIXED MEDIA ON CANVAS 100 X 100 CM
-                </FullDiscription>
-              </ProdPrice>
-            </ProductInfo>
-          </TextAlignProduct>
+                </Contentwrapper>
+              </ProductPrice>
+            </Productdescription>
+          </Productproperties>
         </ListProduct>
-        {/* saventh */}
         <ListProduct>
-          <Producimage>
+          <Productimage>
             <a>
               <Product src="https://artbyraff.com/wp-content/uploads/2023/06/image00008-768x764.jpeg"></Product>
             </a>
-          </Producimage>
+          </Productimage>
 
-          <TextAlignProduct>
-            <ProductInfo>
-              <ProdNAmeTitle>
+          <Productproperties>
+            <Productdescription>
+              <Producttitle>
                 <a> </a>
-              </ProdNAmeTitle>
-              <ProdPrice>
-                <ProdPriceINfo>UNTITLED 202III – SERIES</ProdPriceINfo>
-                <ProdCatogeri>SOLD</ProdCatogeri>
-                <FullDiscription>
+              </Producttitle>
+              <ProductPrice>
+                <Pricewrapper>UNTITLED 202III – SERIES</Pricewrapper>
+                <Properties>SOLD</Properties>
+                <Contentwrapper>
                   MATERIAL : MIXED MEDIA ON CANVAS 100 X 100 CM
-                </FullDiscription>
-              </ProdPrice>
-            </ProductInfo>
-          </TextAlignProduct>
+                </Contentwrapper>
+              </ProductPrice>
+            </Productdescription>
+          </Productproperties>
         </ListProduct>
-        {/* eighth */}
         <ListProduct>
-          <Producimage>
+          <Productimage>
             <a>
               <Product src="https://artbyraff.com/wp-content/uploads/2023/06/image00008-768x764.jpeg"></Product>
             </a>
-          </Producimage>
+          </Productimage>
 
-          <TextAlignProduct>
-            <ProductInfo>
-              <ProdNAmeTitle>
+          <Productproperties>
+            <Productdescription>
+              <Producttitle>
                 <a> </a>
-              </ProdNAmeTitle>
-              <ProdPrice>
-                <ProdPriceINfo>UNTITLED 202III – SERIES</ProdPriceINfo>
-                <ProdCatogeri>SOLD</ProdCatogeri>
-                <FullDiscription>
+              </Producttitle>
+              <ProductPrice>
+                <Pricewrapper>UNTITLED 202III – SERIES</Pricewrapper>
+                <Properties>SOLD</Properties>
+                <Contentwrapper>
                   MATERIAL : MIXED MEDIA ON CANVAS 100 X 100 CM
-                </FullDiscription>
-              </ProdPrice>
-            </ProductInfo>
-          </TextAlignProduct>
+                </Contentwrapper>
+              </ProductPrice>
+            </Productdescription>
+          </Productproperties>
         </ListProduct>
       </Unorderlist>
     </>

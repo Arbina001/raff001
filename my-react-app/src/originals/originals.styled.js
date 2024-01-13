@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Originalsection = styled.div`
-  background-color: #000;
+  background-color: #000000;
   display: flex;
   justify-content: flex-end;
 `;
@@ -20,19 +20,18 @@ export const Canvasstyle = styled.div`
   font-weight: 600;
   font-size: 90px;
   line-height: 0.98;
+  right: -93px;
   letter-spacing: 5px;
-  /* background-color: #6d6d6d; */
   color: #6f6c65;
   text-transform: uppercase;
   position: relative;
-  right: -93px;
 
-  @media (max-width: 911px) {
+  @media (max-width: 991px) {
     letter-spacing: 2px;
     font-size: 24px;
     right: 112px;
     top: -23px;
-    color: rgb(111 108 101);
+    color: #6f6c65;
   }
 `;
 
@@ -44,7 +43,6 @@ export const Originalsbox = styled.div`
 export const Styledtxtoriginal = styled.div`
   flex: 0 0 auto;
   width: auto;
-  /* max-width: 100%; */
 `;
 
 export const Styledcanvas = styled.div`
@@ -59,23 +57,24 @@ export const Styledcanvas = styled.div`
   position: relative;
   left: -3px;
 
-  @media (max-width: 911px) {
+  @media (max-width: 991px) {
     font-size: 29px;
     /* right: 47px; */
     left: -149px;
     top: 70px;
     letter-spacing: 2px;
-    color: rgb(75 75 75);
+    color: #6f6c65;
   }
 `;
 
 export const Productgrid = styled.div``;
+
 export const Productgridouter = styled.div`
   display: flex;
   flex-wrap: wrap;
 `;
 export const Productgridlist = styled.div`
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   width: 20%;
   margin: 64px 65px 64px 100px;
   min-width: 247px;

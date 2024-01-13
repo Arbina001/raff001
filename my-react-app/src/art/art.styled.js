@@ -61,7 +61,7 @@ export const Welcomestyle = styled.div`
   top: 118px;
   color: #1c1b1c;
 
-  @media (max-width: 991px) and (max-width: 991px) {
+  @media (max-width: 991px) {
     font-size: 35px;
     padding: 0 0 63px 297px;
   }
@@ -77,9 +77,9 @@ export const Content = styled.div`
   line-height: 1.77;
   text-align: left;
   color: #d8d8d8;
-  margin-top: 80px;
+  margin: 80px 0 0 0;
   border-left: 5px solid #d8cf91;
-  padding-left: 67px;
+  padding: 0 0 0 67px;
   max-width: 967px;
   width: 100%;
 

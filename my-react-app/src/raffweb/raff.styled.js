@@ -24,6 +24,7 @@ export const StyledLogoSection = styled.div`
   z-index: 2;
   width: 100%;
 `;
+
 export const StyledLogoContainer = styled.div`
   max-width: 1128px;
   width: 100%;

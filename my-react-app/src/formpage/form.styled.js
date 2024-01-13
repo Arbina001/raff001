@@ -1,5 +1,7 @@
 import styled from 'styled-components';
+
 export const ContactPAgeSection = styled.section``;
+
 export const InnerContactPage = styled.div`
   background: url(https://artbyraff.com/wp-content/themes/storefront-child-theme-master/assets/images/bgContactform.jpg);
   min-height: 1100px;
@@ -7,24 +9,25 @@ export const InnerContactPage = styled.div`
   background-position: center center;
   background-size: 100% auto;
 `;
+
 export const InnerContainerPage = styled.div``;
+
 export const ContactWrapper = styled.div`
   width: 100%;
   max-width: 1128px;
   padding: 0 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 
   @media (max-width: 991px) {
     padding: 0;
   }
 `;
+
 export const InnerContactWrapper = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin: 0 -15px;
   padding: 0px 126px 0px;
 
   @media (max-width: 991px) {
@@ -32,6 +35,7 @@ export const InnerContactWrapper = styled.div`
     margin: 0;
   }
 `;
+
 export const ContactTitle = styled.div`
   font-family: Graphik-Black;
   font-size: 72px;
@@ -48,6 +52,7 @@ export const ContactTitle = styled.div`
     font-size: 48px;
   }
 `;
+
 export const Subtitle = styled.div`
   font-family: Graphik-Black;
   font-size: 48px;
@@ -65,21 +70,23 @@ export const Subtitle = styled.div`
     line-height: 31px;
   }
 `;
+
 export const ContactFormPage = styled.div`
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin: 0 -15px 0 -15px;
 
   @media (max-width: 991px) {
     margin: 0;
   }
 `;
+
 export const ContactFormData = styled.div`
   max-width: 990px;
   margin: 0 auto;
 `;
+
 export const ContactFormWrapper = styled.p`
   font-family: Graphik-Light;
   font-size: 24px;
@@ -93,9 +100,11 @@ export const ContactFormWrapper = styled.p`
     font-size: 13px;
   }
 `;
+
 export const FormDetailsPage = styled.p`
   margin: 0px 0px 0px 0px;
 `;
+
 export const ContactTextPage = styled.span`
   font-family: Graphik, sans-serif;
   font-size: 26px;
@@ -108,6 +117,7 @@ export const ContactTextPage = styled.span`
     font-size: 15px;
   }
 `;
+
 export const InputSection = styled.input`
   background: transparent;
   padding: 0;
@@ -120,12 +130,13 @@ export const InputSection = styled.input`
   text-align: center;
   text-transform: uppercase;
   color: #979797;
-  margin-top: 35px;
+  margin:  35px 0 0 0;
   &:focus {
     outline: none;
     border-bottom: 2px solid #d8cf91;
   }
 `;
+
 export const NameInput = styled(InputSection)`
   width: 100%;
   max-width: 500px;
@@ -134,10 +145,12 @@ export const NameInput = styled(InputSection)`
     max-width: 300px;
   }
 `;
+
 export const TellephoneInput = styled(InputSection)`
   width: 100%;
   max-width: 294px;
 `;
+
 export const EmailInput = styled(InputSection)`
   width: 100%;
   max-width: 336px;
@@ -151,15 +164,17 @@ export const EmailInput = styled(InputSection)`
     max-width: 289px;
   }
 `;
+
 export const ExtraInformation = styled(InputSection)`
   width: 100%;
   max-width: 837px;
   text-align: left;
-  
+
   @media (max-width: 991px) {
     max-width: 336px;
   }
 `;
+
 export const SendEMail = styled.input`
   padding: 0;
   border: none;
@@ -167,8 +182,6 @@ export const SendEMail = styled.input`
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  right: 0;
-  top: 0;
   width: 30px;
   height: 50px;
   background-color: transparent;

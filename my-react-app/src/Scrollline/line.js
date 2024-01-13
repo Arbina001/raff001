@@ -1,42 +1,42 @@
 import {
-  LeftScrollContainer,
+  Container,
   Line,
-  LineDEsign,
-  NaviagationDesign,
-  UnorderLogoContainer,
-} from "./line.styled";
+  Linedesign,
+  Naviagationdesign,
+  Unorderwrapper,
+} from './line.styled';
 export function Whiteline() {
   return (
     <>
-      <LeftScrollContainer>
-        <UnorderLogoContainer>
-          <NaviagationDesign>
-            <LineDEsign>
+      <Container>
+        <Unorderwrapper>
+          <Naviagationdesign>
+            <Linedesign>
               <Line></Line>
-            </LineDEsign>
-          </NaviagationDesign>
-          <NaviagationDesign>
-            <LineDEsign>
+            </Linedesign>
+          </Naviagationdesign>
+          <Naviagationdesign>
+            <Linedesign>
               <Line></Line>
-            </LineDEsign>
-          </NaviagationDesign>
-          <NaviagationDesign>
-            <LineDEsign>
+            </Linedesign>
+          </Naviagationdesign>
+          <Naviagationdesign>
+            <Linedesign>
               <Line></Line>
-            </LineDEsign>
-          </NaviagationDesign>
-          <NaviagationDesign>
-            <LineDEsign>
+            </Linedesign>
+          </Naviagationdesign>
+          <Naviagationdesign>
+            <Linedesign>
               <Line></Line>
-            </LineDEsign>
-          </NaviagationDesign>
-          <NaviagationDesign>
-            <LineDEsign>
+            </Linedesign>
+          </Naviagationdesign>
+          <Naviagationdesign>
+            <Linedesign>
               <Line></Line>
-            </LineDEsign>
-          </NaviagationDesign>
-        </UnorderLogoContainer>
-      </LeftScrollContainer>
+            </Linedesign>
+          </Naviagationdesign>
+        </Unorderwrapper>
+      </Container>
     </>
   );
 }

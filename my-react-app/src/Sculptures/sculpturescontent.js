@@ -5,13 +5,13 @@ import {
   SculptureProductGrid,
   ProductImageBox,
   SculptureImage,
-  SculptureProducInfoBox,
+  Productwrapper,
   SculptureName,
   SculptureTitle,
   SculpturePrice,
   SculptureDetails,
   AddCartbutton,
-} from "./sculptures.styled";
+} from './sculptures.styled';
 export function Sculpturecontainer() {
   return (
     <>
@@ -24,7 +24,7 @@ export function Sculpturecontainer() {
                   <SculptureImage src="https://artbyraff.com/wp-content/uploads/2022/04/Layer-2-768x961.png"></SculptureImage>
                 </a>
               </ProductImageBox>
-              <SculptureProducInfoBox>
+              <Productwrapper>
                 <SculptureName>
                   <SculptureTitle>“ Untitled “</SculptureTitle>
                 </SculptureName>
@@ -65,7 +65,7 @@ export function Sculpturecontainer() {
                     </svg>
                   </a>
                 </AddCartbutton>
-              </SculptureProducInfoBox>
+              </Productwrapper>
             </SculptureContent>
           </Sculpture>
         </SculptureList>
@@ -79,7 +79,7 @@ export function Sculpturecontainer() {
                   <SculptureImage src="https://artbyraff.com/wp-content/uploads/2021/01/IMG_5905-768x1024.jpg"></SculptureImage>
                 </a>
               </ProductImageBox>
-              <SculptureProducInfoBox>
+              <Productwrapper>
                 <SculptureName>
                   <SculptureTitle>“ Untitled “</SculptureTitle>
                 </SculptureName>
@@ -120,7 +120,7 @@ export function Sculpturecontainer() {
                     </svg>
                   </a>
                 </AddCartbutton>
-              </SculptureProducInfoBox>
+              </Productwrapper>
             </SculptureContent>
           </Sculpture>
         </SculptureList>

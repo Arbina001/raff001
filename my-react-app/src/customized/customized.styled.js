@@ -1,5 +1,7 @@
 import styled from 'styled-components';
+
 export const MainSection = styled.div``;
+
 export const Container = styled.div`
   max-width: 1128px;
   width: 100%;
@@ -9,6 +11,7 @@ export const Container = styled.div`
 export const Headingwrapper = styled.div`
   text-align: center !important;
 `;
+
 export const Headingtitle = styled.h3`
   font-family: 'Graphik-Super';
   font-size: 84px;
@@ -42,6 +45,7 @@ export const StyledNextArrow = styled.div`
     }
   }
 `;
+
 export const StyledPreviousArrow = styled.div`
   &.slick-arrow {
     margin: 55px 0;
@@ -69,14 +73,17 @@ export const CustomizeSlider = styled.div`
   text-align: center;
   border-radius: 10px;
 `;
+
 export const CustomArrowIcon = styled.div`
   svg {
     fill: #ffffff;
   }
 `;
+
 export const CostomizedSlider = styled.div`
   display: flex;
 `;
+
 export const CostomizedSliderName = styled.p`
   font-family: 'Graphik-Super';
   font-size: 24px;
@@ -84,9 +91,11 @@ export const CostomizedSliderName = styled.p`
   color: #d8cf91;
   margin: 0;
 `;
+
 export const SliderWrapper = styled.div`
   border-radius: 10px 10px 0 0;
 `;
+
 export const CostomizedSliderImage = styled.div`
   margin: 20px -14px 9px 0;
   position: relative;

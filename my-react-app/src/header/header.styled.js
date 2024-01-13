@@ -80,7 +80,7 @@ export const HeadingImage = styled.img`
   width: 100%;
   max-width: 240px;
 
-  @media (max-width: 911px) {
+  @media (max-width: 991px) {
     max-width: 150px;
     padding: 19px 5px 0px 9px;
   }
