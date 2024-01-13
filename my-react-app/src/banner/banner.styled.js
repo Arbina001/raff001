@@ -30,7 +30,6 @@ export const Slicktrack = styled.div`
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: red;
   }
 `;
 export const Mainbox = styled.div`

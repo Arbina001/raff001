@@ -52,14 +52,12 @@ export const Styledcanvas = styled.div`
   letter-spacing: 19.38px;
   color: #4b4b4b;
   text-transform: uppercase;
-  margin-bottom: 0;
   height: 83px;
   position: relative;
   left: -3px;
 
   @media (max-width: 991px) {
     font-size: 29px;
-    /* right: 47px; */
     left: -149px;
     top: 70px;
     letter-spacing: 2px;
@@ -73,6 +71,7 @@ export const Productgridouter = styled.div`
   display: flex;
   flex-wrap: wrap;
 `;
+
 export const Productgridlist = styled.div`
   border: 1px solid #dddddd;
   width: 20%;

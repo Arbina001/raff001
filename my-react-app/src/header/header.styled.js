@@ -50,7 +50,7 @@ export const StyledAlignItem = styled.div`
   margin: 0 15px;
   color: #ffffff;
 
-  @media (max-width: 991px) and (max-width: 991px) {
+  @media (max-width: 991px) {
     margin: 0;
   }
 `;

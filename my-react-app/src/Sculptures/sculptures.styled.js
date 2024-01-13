@@ -89,6 +89,7 @@ export const Sculpture = styled.li`
   position: relative;
   transition: opacity 1s ease;
   transition: all 0.3s ease-in-out;
+  
   &:hover {
     transform: translateY(-20px);
   }

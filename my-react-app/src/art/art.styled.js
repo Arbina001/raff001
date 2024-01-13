@@ -35,7 +35,6 @@ export const Headingtitle = styled.div`
   letter-spacing: 19.38px;
   color: #4b4b4b;
   text-transform: uppercase;
-  margin-bottom: 0;
   position: relative;
   left: -25px;
 

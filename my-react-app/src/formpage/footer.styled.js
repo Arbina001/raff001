@@ -78,7 +78,7 @@ export const InputCheckbox = styled.input`
  margin: 0 22px 0 0;
   align-items: left;
   &::before {
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     display: inline-block;
     height: 19px;
     margin: 0;
@@ -175,7 +175,7 @@ export const StyledCopyWriteSection = styled.div`
   background-color: transparent;
   padding: 14px 0;
 
-  @media screen and (max-width: 992px) {
+  @media  (max-width: 991px) {
     padding: 45px 0px 0px 0px;
   }
 `;
@@ -185,7 +185,7 @@ export const StyledCopyWriteWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  @media screen and (max-width: 767px) {
+  @media  (max-width: 991px) {
     flex-direction: column;
   }
 `;
@@ -193,7 +193,7 @@ export const StyledCopyWriteTextWrapper = styled.div`
   display: flex;
   align-items: center;
 
-  @media screen and (max-width: 767px) {
+  @media (max-width: 991px) {
     flex: 0 0;
     max-width: 100%;
     width: auto;
@@ -208,7 +208,7 @@ export const StyledCopyWriteText = styled.p`
   text-align: left;
   color: #d5d5d5;
 
-  @media screen and (max-width: 767px) {
+  @media (max-width: 991px) {
     line-height: 1;
     margin: auto;
   }
@@ -222,7 +222,7 @@ export const StyledDesignDeveloperText = styled.p`
   text-align: left;
   color: #d5d5d5;
 
-  @media screen and (max-width: 767px) {
+  @media (max-width: 991px) {
     line-height: 1;
   }
 `;

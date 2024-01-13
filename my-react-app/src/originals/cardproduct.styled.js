@@ -13,7 +13,6 @@ export const ListProduct = styled.li`
   min-height: 362px;
   position: relative;
   transition: opacity 1s ease;
-
   transition: all 0.4s ease-in-out;
   &:hover {
     transform: translateY(-20px);
@@ -51,7 +50,7 @@ export const Productdescription = styled.div`
   text-align: left;
   padding: 22px 20px 22px 25px;
   position: relative;
-  margin-top: 250px;
+  margin: 250px 0 0 0;
 `;
 
 export const Producttitle = styled.div``;
@@ -59,7 +58,7 @@ export const Producttitle = styled.div``;
 export const ProductPrice = styled.div``;
 
 export const Properties = styled.div`
-  color: white;
+  color: #ffffff;
 `;
 
 export const Pricewrapper = styled.span`

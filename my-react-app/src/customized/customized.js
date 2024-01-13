@@ -3,8 +3,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import {
-  MainSection,
   Container,
+  Section,
   CostomizedSlider,
   CustomizeSlider,
   SliderWrapper,
@@ -12,15 +12,15 @@ import {
   Headingwrapper,
   Headingtitle,
   CostomizedSliderImage,
-  CostomizedSliderNameWrapper,
+  SliderNameWrapper,
 } from './customized.styled';
-import { CustomizeData } from './customizeddata';
+import { Costomdata } from './customizeddata';
 const Customized = () => {
   const [centerIndex, setCenterIndex] = useState(0);
   const handleBeforeChange = (current, next) => {
     setCenterIndex(next);
   };
-  const ImageOpacity = (currentIndex, slideIndex) => {
+  const Imagefunction = (currentIndex, slideIndex) => {
     return currentIndex === slideIndex ? 1 : 0.2;
   };
   const settings = {
@@ -39,35 +39,37 @@ const Customized = () => {
   }, [settings.initialSlide]);
   return (
     <div>
-      <MainSection>
-        <Container>
+      <Container>
+        <Section>
           <Headingwrapper>
             <Headingtitle>„ customized “</Headingtitle>
           </Headingwrapper>
           <Slider {...settings}>
-            {CustomizeData.map((c, index) => (
-              <CustomizeSlider key={c.Cname}>
+            {Costomdata.map((c, index) => (
+              <CustomizeSlider key={c.Charectorname}>
                 <SliderWrapper>
                   <CostomizedSlider isActive={index === centerIndex}>
                     <CostomizedSliderImage
                       style={{
-                        opacity: ImageOpacity(centerIndex, index),
+                        opacity: Imagefunction(centerIndex, index),
                       }}
                     >
-                      <img src={c.Cimg} alt="" />
+                      <img src={c.Customimage} alt="" />
                     </CostomizedSliderImage>
                     {index === centerIndex && (
-                      <CostomizedSliderNameWrapper>
-                        <CostomizedSliderName>{c.Cname}</CostomizedSliderName>
-                      </CostomizedSliderNameWrapper>
+                      <SliderNameWrapper>
+                        <CostomizedSliderName>
+                          {c.Charectorname}
+                        </CostomizedSliderName>
+                      </SliderNameWrapper>
                     )}
                   </CostomizedSlider>
                 </SliderWrapper>
               </CustomizeSlider>
             ))}
           </Slider>
-        </Container>
-      </MainSection>
+        </Section>
+      </Container>
     </div>
   );
 };

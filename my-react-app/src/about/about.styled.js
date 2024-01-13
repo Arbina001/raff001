@@ -40,6 +40,7 @@ export const Leftbox = styled.div`
 export const Discriptiondetails = styled.div``;
 
 export const Imagefuntion = styled.img`
+
   @media (max-width: 991px) {
     width: 273px;
     margin: 0px -45px 5px 0px;
@@ -65,6 +66,7 @@ export const Texttitle = styled.div`
 `;
 
 export const Discription = styled.div`
+
   @media (max-width: 991px) {
     margin: 0px 35px 0px 19px;
     font-size: 10px;
@@ -72,6 +74,7 @@ export const Discription = styled.div`
 `;
 
 export const Signature = styled.img`
+
   @media (max-width: 991px) {
     padding: 14px 14px 0px 17px;
   }
