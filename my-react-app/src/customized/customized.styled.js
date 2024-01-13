@@ -1,31 +1,128 @@
 import styled from 'styled-components';
-
-export const Costomizedcontainer = styled.div`
-  display: block;
-`;
-
-export const Costomizedbox = styled.div`
+export const MainSection = styled.div``;
+export const Container = styled.div`
   max-width: 1128px;
   width: 100%;
-`;
-export const Innerbox = styled.div`
-  margin: 150px 0 100px;
+  margin: 0 auto;
 `;
 
-export const Headingbox = styled.div`
-  box-sizing: border-box;
+export const Headingwrapper = styled.div`
+  text-align: center !important;
 `;
-
-export const Txtcontainer = styled.div`
+export const Headingtitle = styled.h3`
+  font-family: 'Graphik-Super';
+  font-size: 84px;
+  line-height: 1.58;
+  letter-spacing: 9.88px;
   text-align: center;
+  color: #494949;
+  text-transform: uppercase;
+  margin: 0 0 -30px 0;
+
+  @media screen and (max-width: 992px) {
+    font-size: 36px;
+  }
 `;
-export const Contenttxtbox = styled.div``;
+export const StyledNextArrow = styled.div`
+  &.slick-arrow {
+    margin: 55px 0;
+    height: 44px;
+    max-width: 53px;
+    width: 100%;
+    display: block;
+    position: relative;
+    right: -661px;
+    top: -411px;
+    background: #2d2b2b;
+    border-radius: 25px;
+    &:before {
+      position: absolute;
+      top: 13px;
+      right: 18px;
+    }
+  }
+`;
+export const StyledPreviousArrow = styled.div`
+  &.slick-arrow {
+    margin: 55px 0;
+    position: relative;
+    left: 593px;
+    top: 700px;
+    background: #2d2b2b;
+    height: 44px;
+    max-width: 53px;
+    width: 100%;
+    display: flex;
+    border-radius: 25px;
+    cursor: pointer;
+    &:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+`;
 
-export const Sliderbox = styled.div``;
-
-export const Rowfunctionbox = styled.div`
+export const CustomizeSlider = styled.div`
+  height: max-content;
+  text-align: center;
+  border-radius: 10px;
+`;
+export const CustomArrowIcon = styled.div`
+  svg {
+    fill: #ffffff;
+  }
+`;
+export const CostomizedSlider = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px;
 `;
-export const Contentrowbox = styled.div``;
+export const CostomizedSliderName = styled.p`
+  font-family: 'Graphik-Super';
+  font-size: 24px;
+  font-weight: bold;
+  color: #d8cf91;
+  margin: 0;
+`;
+export const SliderWrapper = styled.div`
+  border-radius: 10px 10px 0 0;
+`;
+export const CostomizedSliderImage = styled.div`
+  margin: 20px -14px 9px 0;
+  position: relative;
+  img {
+    width: 330px;
+    height: 420px; }
+ 
+  @media (max-width: 991px) {
+    margin: 20px -24px 9px 0;
+    img {
+      max-width: 100px;
+      width: 100%;
+      max-height: 200px;
+    }
+  }
+`;
+
+export const CostomizedSliderNameWrapper = styled.div`
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0 0;
+`;
+
+export const ArrowContainer = styled.div`
+  &.slick-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    transform: translateX(-50%);
+    background: #2d2b2b;
+    height: 44px;
+    width: 53px;
+    border-radius: 25px;
+  }
+`;

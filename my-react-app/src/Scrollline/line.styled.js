@@ -14,6 +14,7 @@ export const NaviagationDesign = styled.li`
   list-style-type: none;
   background-color: #fff;
   margin: 6px 0px 0px 0px;
+  width: 2px;
   &::before {
     display: contents;
     content: "";

@@ -8,18 +8,20 @@ import { Header } from './header/header';
 import { Banerpage } from './banner/banner';
 import { Route, Routes } from 'react-router-dom';
 import { Formpage } from './formpage/form';
-import { Customizedpage } from './customized/cutomized';
+// import { Customizedpage } from './customized/cutomized';
 import { GlobalStyles } from './App.styled';
 // import { Sculpture } from "./Sculptures/sculptures.styled";
 import { Sculpturesdata } from './Sculptures/sculptures';
 import { Whiteline } from './Scrollline/line';
+import Customized from './customized/customized';
 
 function App() {
   return (
     <div className="App">
       <GlobalStyles />
-      <Header />
-      {/* <Formpage/>  */}
+      <Header/>
+      <Formpage/> 
+      <Customized/>
       {/* <Customizedpage/> */}
       {/* <Aboutpage /> */}
       {/* <Sculpturesdata/> */}

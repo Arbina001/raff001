@@ -9,6 +9,17 @@ export const StyledLogoSection = styled.div`
   width: 100%;
 `;
 
+export const StyledLogoContainer = styled.nav`
+  width: 100%;
+  max-width: 1128px;
+  padding: 0 15px;
+  margin: 0 auto;
+  @media (max-width: 991px) {
+    max-width: none;
+    padding: 0px;
+    margin: 0px;
+  }
+`;
 export const Styledlogobox = styled.nav`
   width: 100%;
   max-width: 1128px;
@@ -19,6 +30,11 @@ export const Styledlogobox = styled.nav`
     padding: 0;
     margin: 0;
   }
+`;
+
+export const ArtByRafIconContainer = styled.div`
+  flex: 0 0 auto;
+  width: 100%;
 `;
 
 export const StyledContainerObject = styled.div`
